@@ -1,0 +1,279 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Main content */
+.main-content {
+  padding-top: 88px;
+  padding-bottom: 88px;
+  padding-left: 88px;
+  padding-right: 88px;
+  background: #ffffff;
+  /* padding: 88px 88px 88px 88px;
+    padding: 88px; */
+}
+
+/* About me */
+.my-profession {
+  color: #000;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  margin: 0 0 18px 0;
+}
+
+.my-name {
+  color: #000;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  margin: 0 0 28px 0;
+}
+
+.my-text {
+  color: #595959;
+  width: 525px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 64px 0;
+}
+
+.main-content-title {
+  color: #000;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 12px;
+}
+
+/* Projects */
+.project-container {
+  margin: 0 0 52px 0;
+}
+
+.project-item-desc {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.project-item-link {
+  color: #005fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.project-item {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* Work experience */
+.work-experience-container {
+  margin: 0 0 44px 0;
+}
+
+.work-experience-position {
+  color: #000;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding-left: 16px;
+}
+
+.work-experience-place {
+  margin-bottom: 16px;
+}
+
+.work-company {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.work-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 16px;
+}
+
+.work-achievements {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 8px;
+}
+
+.work-achievements-list {
+  padding: 0 0 0 36px;
+  margin: 0px;
+}
+
+/* Education */
+.education-container {
+  margin: 0 0 44px 4px;
+}
+
+.university {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 12px;
+  padding-top: 4px;
+  margin: 0px;
+}
+
+.specialization {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 12px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.education-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 12px;
+  padding-top: 0px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 370px;
+  background: #e0ebfe;
+}
+
+/* .my-photo {
+  margin-top: 40px;
+} */
+
+.contacts-container,
+.tech-skils-container,
+.soft-skils-container {
+  margin: 48px 0px 0px 40px;
+}
+
+.sidebar-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+/* Contacts */
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+
+.contacts-item {
+  margin: 0;
+}
+
+.contacts-number {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.contacts-email {
+  color: #2979ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Skils */
+.skils-list {
+  margin: 0;
+  padding: 0 0 0 28px;
+}
+
+.skils-list-item {
+  color: #6d9bf5;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.skils-list-item-text {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.soft-skils-list {
+  margin: 0;
+  padding: 0 0 0 28px;
+}
+
+.soft-skils-list-item {
+  color: #6d9bf5;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.soft-skils-list-item-text {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
